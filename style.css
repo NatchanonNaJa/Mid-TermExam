@@ -1,0 +1,14 @@
+body{
+    background-image: url("background.jpg");
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+    text-align: center;
+    color: aliceblue;
+    height: 50px;
+    margin: 0px;
+    padding: 0px;
+}
+h2{
+    text-align: center;
+}

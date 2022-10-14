@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Post Method</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
+<script src="post.js"></script>
+<body>
+      <header class="p-3 text-bg-dark">
+        <div class="container-fluid">
+          <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+            <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
+              <svg class="bi me-2" width="40" height="32" role="img" aria-label="Bootstrap"><use xlink:href="#bootstrap"></use></svg>
+            </a>
+            <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
+                <li><a href="post.html" class="nav-link px-2 text-white">Post Method</a></li>
+                <li><a href="Flow-tran.html" class="nav-link px-2 text-white">Flow-transducer</a></li> 
+                <li><a href="Level-trans.html" class="nav-link px-2 text-white">Level-transducer</a></li>  
+                <li><a href="Temp-trans.html" class="nav-link px-2 text-white">Temperature-transducer</a></li> 
+                <li><a href="pressure-Trans.html" class="nav-link px-2 text-white">Pressure-transducer</a></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    <div class="mask d-flex align-items-center h-100 gradient-custom-3">
+        <div class="container h-100">
+          <div class="row d-flex justify-content-center align-items-center h-100">
+            <div class="col-12 col-md-9 col-lg-7 col-xl-6">
+              <div class="card" style="border-radius: 15px;">
+                <div class="card-body p-5">
+                  <h2 class="text-uppercase text-center mb-5 text-black">Post Information</h2>
+                  <form id="Postpls" onsubmit="return false">
+    
+                    <div class="form-outline mb-4">
+                      <input type="id" id="new_id" class="form-control form-control-lg">
+                      <label class="form-label" for="form3Example1cg">St-id</label>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="name" id="new_Sname" class="form-control form-control-lg">
+                      <label class="form-label" for="form3Example3cg">St-name</label>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="nameS" id="new_name" class="form-control form-control-lg">
+                      <label class="form-label" for="form3Example4cg">Sensor-name</label>
+                    </div>
+    
+                    <div class="form-outline mb-4">
+                      <input type="typeS" id="new_type" class="form-control form-control-lg">
+                      <label class="form-label" for="form3Example4cdg">Sensor-type</label>
+                    </div>
+
+                    <div class="form-outline mb-4">
+                        <input type="unitS" id="new_unit" class="form-control form-control-lg">
+                        <label class="form-label" for="form3Example4cdg">Sensor-unit</label>
+                      </div>
+
+                      <div class="form-outline mb-4">
+                        <input type="ValueS" id="new_value" class="form-control form-control-lg">
+                        <label class="form-label" for="form3Example4cdg">Sensor-value</label>
+                      </div>
+    
+                   
+    
+                    <div class="d-flex justify-content-center">
+                      <input  type = "submit" value = "SendPost" class="btn btn-success  btn-lg gradient-custom-4 text-body">
+                    </div>
+
+    
+                  </form>
+    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+</body>
+</html>
