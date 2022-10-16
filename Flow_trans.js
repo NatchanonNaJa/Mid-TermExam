@@ -21,6 +21,7 @@ document.addEventListener('DOMContentLoaded',function (){
             document.querySelector('#result5').innerHTML = `${Value}.`;
         }
         else{
+            alert("!!! No Data !!!")
             document.querySelector('#result').innerHTML = "Error";
             
         }
